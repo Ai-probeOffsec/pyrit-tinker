@@ -48,7 +48,7 @@ class PromptChatTarget(PromptTarget):
                 orchestrator_identifier=orchestrator_identifier,
                 labels=labels,
             ).to_prompt_request_response()
-        )
+        ) 
 
     @abc.abstractmethod
     def is_json_response_supported(self) -> bool:
@@ -82,3 +82,10 @@ class PromptChatTarget(PromptTarget):
                     raise ValueError(f"This target {target_name} does not support JSON response format.")
                 return True
         return False
+
+    async def send_prompt_async(self, *, prompt_request):
+        raise NotImplementedError
+
+    def _validate_request(self, *, prompt_request):
+        raise NotImplementedError
+

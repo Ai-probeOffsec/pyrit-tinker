@@ -37,4 +37,57 @@ If you use PyRIT in your research, please cite our preprint paper as follows:
 ```
 
 Additionally, please cite the tool itself following the `CITATION.cff` file in the root of this repository.
+
+# PyRIT Gandalf Challenge
+
+This repository contains code for running the Gandalf Challenge using PyRIT (Python Risk Identification Tool). The implementation uses the PAIR (Prompt Automatic Iterative Refinement) orchestrator to attempt the challenge.
+
+## Prerequisites
+
+- Python 3.8+
+- PyRIT library
+- OpenAI API access
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/pyrit-gandalf-challenge.git
+cd pyrit-gandalf-challenge
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install pyrit
+```
+
+4. Create a `.env` file in the root directory with your API keys:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+## Usage
+
+Run the Gandalf challenge:
+```bash
+python gandalf_pair_attack.py
+```
+
+## Configuration
+
+- The default Gandalf level is set to LEVEL_8
+- PAIR orchestrator parameters can be adjusted in the script:
+  - depth: Number of iterations
+  - objective_achieved_score_threshold: Success threshold
+  - desired_response_prefix: Expected response prefix
+
+## Note
+
+Make sure to never commit your `.env` file or any files containing API keys to the repository. These files are already included in `.gitignore`.
 "# pyrit-tinker" 

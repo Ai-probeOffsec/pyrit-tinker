@@ -65,6 +65,7 @@ def initialize_pyrit(memory_db_type: Union[MemoryDatabaseType, str], **memory_in
     memory: MemoryInterface = None
     if memory_db_type == IN_MEMORY:
         logger.info("Using in-memory DuckDB database.")
+        print("1 : Using in-memory database.")
         memory = DuckDBMemory(db_path=":memory:", **memory_instance_kwargs)
     elif memory_db_type == DUCK_DB:
         logger.info("Using persistent DuckDB database.")

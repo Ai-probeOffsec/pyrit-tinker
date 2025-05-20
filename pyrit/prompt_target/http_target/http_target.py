@@ -26,7 +26,7 @@ class HTTPTarget(PromptTarget):
     """
     HTTP_Target is for endpoints that do not have an API and instead require HTTP request(s) to send a prompt
 
-    Parameters:
+Parameters:
         http_request (str): the header parameters as a request (i.e., from Burp)
         prompt_regex_string (str): the placeholder for the prompt
             (default is {PROMPT}) which will be replaced by the actual prompt.

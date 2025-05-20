@@ -172,7 +172,7 @@ class RedTeamingOrchestrator(MultiTurnOrchestrator):
                 custom_prompt=custom_prompt,
                 memory_labels=updated_memory_labels,
             )
-
+            print(f"This is aoai created promt : {custom_prompt}")
             # Reset custom prompt for future turns
             custom_prompt = None
 
@@ -248,6 +248,7 @@ class RedTeamingOrchestrator(MultiTurnOrchestrator):
             )
         else:
             prompt = custom_prompt
+            print(f"This is aoai created promt : {prompt}")
 
         converter_configurations = PromptConverterConfiguration(converters=self._prompt_converters)
 

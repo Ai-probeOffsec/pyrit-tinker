@@ -189,3 +189,64 @@ doc/_autosummary/
 # Ignore notebooks directory in Docker folder
 /docker/notebooks/
 /docker/notebooks/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.env.local
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PyRIT specific
+Custom cookbooks/
+api_keys/
+**/api_keys/
+secrets/
+**/secrets/
+*.key
+*.pem
+*.env*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Local development
+.DS_Store
+Thumbs.db
