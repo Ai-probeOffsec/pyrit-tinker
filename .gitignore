@@ -237,10 +237,10 @@ secrets/
 *.pem
 *.env*
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-*.ipynb
+# # Jupyter Notebook
+# .ipynb_checkpoints
+# */.ipynb_checkpoints/*
+# *.ipynb
 
 # Logs
 *.log
