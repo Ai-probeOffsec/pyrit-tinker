@@ -39,3 +39,7 @@ If you use PyRIT in your research, please cite official preprint paper as follow
 ```
 
 Additionally, please cite the tool itself following the `CITATION.cff` file in the root of this repository.
+
+## PyRIT Setup
+
+Please visit official PyRIT [PyRIT Installation guide](https://azure.github.io/PyRIT/setup/install_pyrit.html)
