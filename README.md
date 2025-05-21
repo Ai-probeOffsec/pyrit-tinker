@@ -6,9 +6,9 @@ The Python Risk Identification Tool for generative AI (PyRIT) is an open source
 framework built to empower security professionals and engineers to proactively
 identify risks in generative AI systems.
 
-pyrit-tinker is a fork of Microsoft's [PyRIT (Python Risk Identification Tool for LLMs)](https://github.com/microsoft/pyrit) framework, specifically designed for the AI security community to share there research and cookbooks on AI security testing.
+pyrit-tinker is a fork of Microsoft's [PyRIT (Python Risk Identification Tool for LLMs)](https://github.com/microsoft/pyrit) framework, specifically designed for the AI ProbeOffSec community (https://discord.gg/FsN225wC) to share there research and cookbooks on AI security testing.
 
-- Check out our [website](https://azure.github.io/PyRIT/) for more information
+- Check out official PyRIT [website](https://azure.github.io/PyRIT/) for more information
   about how to use, install, or contribute to PyRIT.
 - Visit our [Discord server](https://discord.gg/FsN225wC) to chat with the team and community.
 
