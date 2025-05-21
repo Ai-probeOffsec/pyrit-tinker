@@ -24,7 +24,7 @@ policies.
 
 ## Citing PyRIT
 
-If you use PyRIT in your research, please cite our preprint paper as follows:
+If you use PyRIT in your research, please cite official preprint paper as follows:
 
 ```
 @misc{munoz2024pyritframeworksecurityrisk,
