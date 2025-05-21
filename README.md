@@ -42,4 +42,4 @@ Additionally, please cite the tool itself following the `CITATION.cff` file in t
 
 ## PyRIT Setup
 
-Please visit official PyRIT [PyRIT Installation guide](https://azure.github.io/PyRIT/setup/install_pyrit.html)
+Please visit official PyRIT [PyRIT Installation guide](https://azure.github.io/PyRIT/setup/install_pyrit.html) website.
